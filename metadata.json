@@ -1,0 +1,8 @@
+{
+  "name": "Ezana Academy",
+  "description": "Full-stack E-Learning Platform and Academy Management System with RBAC dashboards, YouTube Data API v3 course import, and Ezana Pro ETB 218 course unlocks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

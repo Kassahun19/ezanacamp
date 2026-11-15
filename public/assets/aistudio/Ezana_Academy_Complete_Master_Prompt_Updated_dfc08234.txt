@@ -1,0 +1,2496 @@
+I'm going to build a responsive, appealing, elegant, compelling, attractive, eye-catching, animating, hanging, transitioning, modern, advanced, practical, dynamic, fully-fledged, full-stack, awesome, fantastic, cool, premium, etc.E-Learing Website named "Ezana Academy". And provide me a full and master prompt to ask AI to build the website for me meeting the below requirements.
+
+# Technologies
+
+1. Frontend: React.js
+2. UI Framework: Tailwind CSS, Bootstrap,etc.
+3. Backend: Node.js
+4. Backend Framework: Express.js
+5. Database: MySQL
+6. API Architecture: REST API
+7. API Format: JSON
+8. Authentication: Email & Password Authentication
+9. Authorization: RBAC
+10. Token Management: JWT
+
+# Database credentials
+
+Database name: ezana_academy_2027
+User name: ezana_academy_2027
+Password: ezana_academy_2027
+Host: localhost
+
+# Pages/header navigation bar links
+
+1. Home - displays the public home page.
+2. About - displays content all about Ezana Academy
+3. Courses - Displays all the courses available at Ezana Academy
+4. Contact - Displays the contact information to reach out Ezana Academy
+5. Login(Button) - on the right - Displays an email and password input fields to enter.
+6. Get started(Button) - on the right - Displays First name, Last name, email, password, confirm password input fields for registration/account creation. And when submitted, it will be redirected to his dashboard.
+
+- Once a user creates an account and is logged in, it could be able to see at most five tutorial videos rendered under each course at his dashboard menu.
+- Any logged in user could be able to open and watch at most five tutorial videos under each course for free.
+- The remaining tutorial videos under each course could be in locked and read only mode, which redirects to the pro plan page describing a hint/information like please upgrade to the pro plan to unlock the full tutorial videos for the course, or some thing like that which is short and precise, along with the "Ezana Pro" plan card with its detailed description and information users could get by upgrading to that plan. The price for this Ezana Pro plan must be ETB 218. This ETB 218 price is fixed to each of the courses available in the website as well.
+
+# Dashboards
+
+1. Owner - Has full platform access
+2. Admin - Has Academy administration role
+3. Instructor - Has teaching and learning management role
+4. Student - Has personal learning environment access
+5. Parent - Has child monitoring and engagement role
+
+# OWNER DASHBOARD
+
+- Full platform access
+
+# EZANA ACADEMY – OWNER DASHBOARD MENU FUNCTIONALITY SPECIFICATION
+
+## General Instructions
+
+Build the Owner Dashboard for Ezana Academy, an online learning management platform.
+
+Every menu and submenu must be fully functional. When the Owner clicks a menu item, the system must open its corresponding page and allow the Owner to perform the actions described below.
+
+### 1. Dashboard
+
+Display an overview of the entire academy, including:
+
+- Total students, instructors, parents, and administrators.
+- Total courses and active enrollments.
+- Total revenue and outstanding payments.
+- Attendance and academic performance summaries.
+- Recent activities and system updates.
+- Charts and statistics showing academy performance.
+
+### 2. Reports & Analytics
+
+Allow the Owner to:
+
+- Generate academic, financial, attendance, enrollment, and operational reports.
+- Filter reports by date, academic year, semester, course, class, and user.
+- View reports using charts, tables, and summaries.
+- Export and download reports in PDF and Excel formats.
+
+### 3. Academy Management
+
+#### 3.1 User Management
+
+Allow the Owner to:
+
+- Create, view, edit, and delete user accounts.
+- Search and filter users.
+- Assign roles: Owner, Admin, Instructor, Student, and Parent.
+- Activate, deactivate, or suspend accounts.
+- Manage user access and account status.
+
+#### 3.2 Student Records
+
+Allow the Owner to:
+
+- Register and manage student profiles.
+- View personal and academic information.
+- Edit student details and contact information.
+- View enrollment history, academic records, and course progress.
+- Search, filter, and export student records.
+
+#### 3.3 Instructor Management
+
+Allow the Owner to:
+
+- Add and manage instructor profiles.
+- Record qualifications, experience, and areas of expertise.
+- Assign instructors to courses and classes.
+- Manage instructor schedules and account status.
+- View instructor activity and performance.
+
+#### 3.4 Parent Management
+
+Allow the Owner to:
+
+- Create and manage parent accounts.
+- Record parent contact information.
+- Link parents to their children’s student accounts.
+- View linked children and their academic information.
+- Manage parent account access and status.
+
+#### 3.5 Academic Management
+
+Allow the Owner to:
+
+- Create and manage academic years, semesters, and terms.
+- Create departments, classes, and sections.
+- Configure the academy's academic structure.
+- Assign students and instructors to the appropriate academic groups.
+- Manage academic calendars and settings.
+
+#### 3.6 Course Management
+
+Allow the Owner to:
+
+- Create, edit, view, publish, and archive courses.
+- Add course titles, descriptions, images, prices, and learning objectives.
+- Assign instructors to courses.
+- Configure course enrollment settings.
+- Manage course visibility and publication status.
+- Delete courses when appropriate.
+
+#### 3.7 Subjects & Categories
+
+Allow the Owner to:
+
+- Create, edit, and delete subjects.
+- Create and organize course categories and subcategories.
+- Assign subjects and categories to courses.
+- Search and filter subjects and categories.
+
+#### 3.8 Timetables & Scheduling
+
+Allow the Owner to:
+
+- Create and manage class timetables.
+- Schedule lessons, examinations, and live classes.
+- Assign instructors, courses, dates, times, and classrooms.
+- View instructor and student schedules.
+- Detect and prevent scheduling conflicts.
+
+#### 3.9 Attendance Tracking
+
+Allow the Owner to:
+
+- View and manage student and instructor attendance.
+- Record and update attendance information.
+- Track present, absent, and late statuses.
+- Calculate attendance percentages.
+- Filter attendance by student, instructor, course, class, and date.
+- Generate attendance reports.
+
+#### 3.10 Grades & Report Cards
+
+Allow the Owner to:
+
+- View and manage student grades and examination results.
+- Configure grading systems and assessment scales.
+- Monitor assignment, quiz, and examination scores.
+- Generate student report cards.
+- View academic performance by student, class, and course.
+- Export and print academic reports.
+
+#### 3.11 E-Learning Resources
+
+Allow the Owner to:
+
+- Upload and manage learning materials.
+- Support videos, PDFs, documents, presentations, and other learning files.
+- Organize resources by course, subject, and category.
+- Preview, edit, download, and delete resources.
+- Control resource access based on user roles and course enrollment.
+
+### 4. Finance & Payments
+
+#### 4.1 Fees & Payments
+
+Allow the Owner to:
+
+- Create and manage student fees and course fees.
+- Configure payment amounts, due dates, discounts, and payment rules.
+- View paid, unpaid, overdue, and partially paid fees.
+- Record and monitor payments.
+- Manage available payment methods.
+- View student payment balances.
+
+#### 4.2 Invoices & Receipts
+
+Allow the Owner to:
+
+- Generate invoices for student fees and course purchases.
+- Generate receipts after successful payments.
+- View, search, and manage invoices and receipts.
+- Download and print financial documents.
+- Track invoice and payment statuses.
+
+#### 4.3 Revenue & Transactions
+
+Allow the Owner to:
+
+- View all financial transactions.
+- Monitor academy income and revenue.
+- Track successful, pending, failed, and refunded transactions.
+- View transaction details and payment references.
+- Filter transactions by date, student, payment method, and status.
+
+#### 4.4 Financial Reports
+
+Allow the Owner to:
+
+- Generate revenue and income reports.
+- View paid fees and outstanding balances.
+- Generate payment, refund, and transaction reports.
+- Filter financial reports by date and payment category.
+- Export reports in PDF and Excel formats.
+
+### 5. Communication
+
+#### 5.1 Parent Communication
+
+Allow the Owner to:
+
+- Communicate directly with parents.
+- Send updates about student performance, attendance, and academic progress.
+- View and respond to parent inquiries.
+- Send individual or group messages.
+
+#### 5.2 Messages
+
+Allow the Owner to:
+
+- Send and receive private messages.
+- View conversations and message history.
+- Search and organize messages.
+- Mark messages as read or unread.
+- Archive or delete messages when appropriate.
+
+#### 5.3 Announcements
+
+Allow the Owner to:
+
+- Create, edit, publish, and delete announcements.
+- Send announcements to all users or selected roles.
+- Target specific classes, courses, instructors, students, or parents.
+- Schedule announcements for future publication.
+- View published and scheduled announcements.
+
+#### 5.4 Notifications
+
+Allow the Owner to:
+
+- View system notifications.
+- Send notifications to selected users or groups.
+- Manage notification preferences.
+- Mark notifications as read or unread.
+- Receive alerts about important academy activities and system events.
+
+#### 5.5 Support & Feedback
+
+Allow the Owner to:
+
+- View support requests, complaints, and feedback.
+- Respond to user inquiries.
+- Assign support requests to administrators.
+- Update request statuses, such as Open, In Progress, and Resolved.
+- Review feedback and monitor support history.
+
+### 6. Platform Management
+
+#### 6.1 Roles & Permissions
+
+Allow the Owner to:
+
+- Manage the five platform roles: Owner, Admin, Instructor, Student, and Parent.
+- Create and edit roles when permitted.
+- Assign permissions to each role.
+- Control access to menus, pages, modules, actions, and data.
+- Restrict unauthorized access.
+- Ensure permissions are enforced by the backend, not only hidden in the frontend.
+
+#### 6.2 System Settings
+
+Allow the Owner to:
+
+- Configure platform-wide settings.
+- Manage security and authentication settings.
+- Configure email and notification settings.
+- Set currency, timezone, language, and regional preferences.
+- Configure default academic settings.
+- Manage general platform preferences.
+
+#### 6.3 Academy Profile
+
+Allow the Owner to:
+
+- Edit the academy name, logo, and branding.
+- Update academy address and contact information.
+- Manage website and social media links.
+- Update the academy description and other public information.
+- Display academy information consistently across the platform.
+
+#### 6.4 Integrations
+
+Allow the Owner to:
+
+- Configure third-party services and API connections.
+- Connect and manage payment gateways.
+- Configure email services.
+- Integrate video conferencing and live-class services.
+- View integration status and manage connection settings.
+- Protect API keys and integration credentials.
+
+#### 6.5 Audit Logs
+
+Allow the Owner to:
+
+- View records of important platform activities.
+- Track user logins and account changes.
+- Monitor role and permission updates.
+- Track financial and administrative operations.
+- Search and filter logs by user, activity, date, and action.
+- View timestamps and details of recorded activities.
+
+### 7. My Account
+
+#### 7.1 My Profile
+
+Allow the Owner to:
+
+- View and edit personal profile information.
+- Update name, profile photo, email, phone number, and other permitted details.
+- Save and display updated profile information.
+
+#### 7.2 Account Settings
+
+Allow the Owner to:
+
+- Manage personal account preferences.
+- Configure language and timezone preferences.
+- Manage notification preferences.
+- Update other available account settings.
+
+#### 7.3 Change Password
+
+Allow the Owner to:
+
+- Change the account password securely.
+- Require the current password before accepting a new password.
+- Validate password strength and confirmation.
+- Store passwords securely using password hashing.
+
+#### 7.4 Logout
+
+Allow the Owner to:
+
+- Securely end the current session.
+- Invalidate or terminate authentication credentials as appropriate.
+- Redirect the user to the login page.
+- Prevent access to protected pages after logout.
+
+---
+
+## GLOBAL DEVELOPMENT REQUIREMENTS
+
+Apply these requirements to every menu and submenu:
+
+1. Every menu item must be clickable and open the correct page.
+2. Every page must have a clear title, relevant content, and appropriate actions.
+3. Implement functional Create, Read, Update, and Delete (CRUD) operations wherever applicable.
+4. Connect all modules to the backend API and MySQL database using Prisma ORM.
+5. Use real database records instead of hardcoded demonstration data.
+6. Implement search, filtering, sorting, and pagination where appropriate.
+7. Add form validation and clear success and error messages.
+8. Include loading states, empty states, and error handling.
+9. Use confirmation dialogs before important destructive actions.
+10. Enforce Role-Based Access Control (RBAC) on both frontend and backend.
+11. Ensure Owners have the permissions assigned to the Owner role.
+12. Protect sensitive information and follow secure authentication practices.
+13. Make the dashboard responsive on desktop, tablet, and mobile devices.
+14. Maintain a consistent design, navigation system, and user experience across all modules.
+15. Record important administrative actions in the Audit Logs.
+16. Do not create buttons or menu items that look functional but do nothing.
+17. Ensure that saved, edited, or deleted information is reflected immediately in the interface.
+18. Test every menu, submenu, button, form, API endpoint, and permission before considering the module complete.
+
+## EXPECTED RESULT
+
+Deliver a fully functional Owner Dashboard for Ezana Academy. Every menu and submenu must perform its specified function, communicate with the backend, and store or retrieve the correct information from the database.
+
+Build the modules in a structured way, maintain clean and reusable code, and ensure that the system is secure, scalable, responsive, and easy to maintain.
+
+# ADMIN DASHBOARD
+
+- Academy administration
+
+# EZANA ACADEMY – ADMIN DASHBOARD MENU FUNCTIONALITY SPECIFICATION
+
+## General Instructions
+
+Build the Admin Dashboard for Ezana Academy, an online learning management platform.
+
+Every menu and submenu must be fully functional. When the Admin clicks a menu item, the system must open its corresponding page and allow the Admin to perform the actions described below, according to the permissions assigned by the Owner.
+
+### 1. Dashboard
+
+Display an overview of the academy’s daily operations, including:
+
+- Total students, instructors, parents, and administrators.
+- Total courses, classes, and active enrollments.
+- Student attendance and academic performance summaries.
+- Total payments and outstanding balances.
+- Pending enrollment requests.
+- Recent activities and system updates.
+- Charts and statistics showing academy performance.
+
+### 2. Reports & Analytics
+
+Allow the Admin to:
+
+- Generate academic, student, enrollment, attendance, and financial reports.
+- Filter reports by date, academic year, semester, course, class, and student.
+- View reports using charts, tables, and summaries.
+- Monitor student performance and academy activities.
+- Export and download reports in PDF and Excel formats.
+
+### 3. User Management
+
+#### 3.1 All Users
+
+Allow the Admin to:
+
+- View all registered users across the academy.
+- Create, view, edit, and manage user accounts.
+- Search and filter users by name, role, status, and registration date.
+- Activate, deactivate, or suspend accounts.
+- View user details and account activity.
+
+#### 3.2 Student Management
+
+Allow the Admin to:
+
+- Register and manage student accounts.
+- View and edit student personal and contact information.
+- Manage student profiles and account status.
+- View student enrollment and academic information.
+- Search, filter, and export student records.
+
+#### 3.3 Instructor Management
+
+Allow the Admin to:
+
+- Add and manage instructor profiles.
+- Record instructor qualifications, experience, and expertise.
+- Assign instructors to courses and classes.
+- Manage instructor contact information and account status.
+- View instructor schedules and assigned courses.
+
+#### 3.4 Parent Management
+
+Allow the Admin to:
+
+- Create and manage parent accounts.
+- Record parent contact information.
+- Link parents to their children’s student accounts.
+- View linked children and their academic information.
+- Manage parent account access and status.
+
+#### 3.5 User Roles
+
+Allow the Admin to:
+
+- View the available platform roles.
+- Manage user roles according to permissions granted by the Owner.
+- Assign appropriate roles to users.
+- View the access level associated with each role.
+- Prevent unauthorized role changes.
+
+#### 3.6 User Permissions
+
+Allow the Admin to:
+
+- View permissions assigned to different user roles.
+- Manage user access according to the authority granted by the Owner.
+- Control access to permitted menus, pages, modules, and actions.
+- Review existing permission assignments.
+- Prevent unauthorized access to restricted functions.
+
+### 4. Academic Management
+
+#### 4.1 Student Records
+
+Allow the Admin to:
+
+- Register and manage student profiles.
+- View personal and academic information.
+- Edit student details and contact information.
+- View enrollment history, academic records, and course progress.
+- Search, filter, and export student records.
+
+#### 4.2 Course Management
+
+Allow the Admin to:
+
+- Create, edit, view, publish, and archive courses.
+- Add course titles, descriptions, images, and learning objectives.
+- Assign instructors to courses.
+- Configure course enrollment settings.
+- Manage course visibility and publication status.
+
+#### 4.3 Subjects & Categories
+
+Allow the Admin to:
+
+- Create, edit, and delete academic subjects.
+- Create and organize course categories and subcategories.
+- Assign subjects and categories to courses.
+- Search and filter subjects and categories.
+
+#### 4.4 Classes & Sections
+
+Allow the Admin to:
+
+- Create and manage classes and sections.
+- Assign students and instructors to classes.
+- Organize students into appropriate academic groups.
+- Edit class details and capacity.
+- View class lists and assigned instructors.
+
+#### 4.5 Academic Years
+
+Allow the Admin to:
+
+- Create and manage academic years.
+- Set academic year start and end dates.
+- Activate or close academic years.
+- View and manage academic year records.
+- Connect semesters and terms to the appropriate academic year.
+
+#### 4.6 Semesters & Terms
+
+Allow the Admin to:
+
+- Create and manage semesters and academic terms.
+- Set semester and term start and end dates.
+- Assign terms to academic years.
+- Activate, close, and manage academic periods.
+- View semester and term schedules.
+
+#### 4.7 Timetables & Scheduling
+
+Allow the Admin to:
+
+- Create and manage class timetables.
+- Schedule lessons, examinations, and live classes.
+- Assign instructors, courses, dates, times, and classrooms.
+- View instructor and student schedules.
+- Detect and prevent scheduling conflicts.
+
+#### 4.8 Attendance Tracking
+
+Allow the Admin to:
+
+- View and manage student and instructor attendance.
+- Record and update attendance information.
+- Track present, absent, and late statuses.
+- Calculate attendance percentages.
+- Filter attendance by student, instructor, course, class, and date.
+- Generate attendance reports.
+
+#### 4.9 Grades & Report Cards
+
+Allow the Admin to:
+
+- View and manage student grades and examination results.
+- Monitor assignment, quiz, and examination scores.
+- Manage grading records and assessment scales where authorized.
+- Generate student report cards.
+- View academic performance by student, class, and course.
+- Export and print academic reports.
+
+#### 4.10 Examinations & Assessments
+
+Allow the Admin to:
+
+- Create and manage examinations, quizzes, and assessments.
+- Configure examination dates, durations, and instructions.
+- Manage assessment questions and question banks.
+- View student submissions and examination results.
+- Monitor assessment schedules and completion status.
+
+#### 4.11 E-Learning Resources
+
+Allow the Admin to:
+
+- Upload and manage learning materials.
+- Support videos, PDFs, documents, presentations, and other learning files.
+- Organize resources by course, subject, and category.
+- Preview, edit, download, and delete resources.
+- Control resource access based on user roles and course enrollment.
+
+#### 4.12 Certificates
+
+Allow the Admin to:
+
+- Create and manage certificate templates.
+- Generate and issue student certificates.
+- View certificate records and issuance dates.
+- Download and print certificates.
+- Verify certificate details and student eligibility.
+
+### 5. Enrollment Management
+
+#### 5.1 Course Enrollment
+
+Allow the Admin to:
+
+- Enroll students in available courses.
+- View and manage enrolled students.
+- Assign students to selected courses.
+- Update enrollment statuses.
+- View course enrollment history.
+
+#### 5.2 Student Registration
+
+Allow the Admin to:
+
+- Register new students by collecting personal and contact information.
+- Record academic and guardian details.
+- Create student accounts.
+- Assign students to academic years and appropriate classes.
+- View and manage registration records.
+
+#### 5.3 Enrollment Requests
+
+Allow the Admin to:
+
+- View incoming student enrollment applications.
+- Review submitted student information and course requests.
+- Approve or reject enrollment applications.
+- Track pending and completed requests.
+- Notify students or parents about enrollment decisions.
+
+#### 5.4 Class Assignments
+
+Allow the Admin to:
+
+- Assign registered students to appropriate classes and sections.
+- Assign students to courses and academic groups.
+- View current class assignments.
+- Transfer students between classes when authorized.
+- Update and manage class assignment records.
+
+### 6. Finance & Payments
+
+#### 6.1 Fees & Payments
+
+Allow the Admin to:
+
+- View and manage student fees and course fees.
+- Record student payments.
+- View paid, unpaid, overdue, and partially paid fees.
+- Monitor payment statuses and student balances.
+- Manage payment records according to assigned permissions.
+
+#### 6.2 Invoices & Receipts
+
+Allow the Admin to:
+
+- Generate invoices for student fees and course purchases.
+- Generate receipts after successful payments.
+- View, search, and manage invoices and receipts.
+- Download and print financial documents.
+- Track invoice and payment statuses.
+
+#### 6.3 Payment History
+
+Allow the Admin to:
+
+- View student payment transaction history.
+- Track payment dates, amounts, methods, and references.
+- View successful, pending, failed, and refunded transactions.
+- Search and filter payment records.
+- Export payment history reports.
+
+#### 6.4 Outstanding Balances
+
+Allow the Admin to:
+
+- View students with unpaid or partially paid fees.
+- Display outstanding amounts and payment deadlines.
+- Identify overdue payments.
+- Track student payment balances.
+- Generate outstanding payment reports.
+- Send payment reminders to students or parents.
+
+### 7. Communication
+
+#### 7.1 Parent Communication
+
+Allow the Admin to:
+
+- Communicate directly with parents.
+- Send updates about student performance, attendance, and academic progress.
+- View and respond to parent inquiries.
+- Send individual or group messages.
+- Maintain parent communication history.
+
+#### 7.2 Messages
+
+Allow the Admin to:
+
+- Send and receive private messages.
+- View conversations and message history.
+- Search and organize messages.
+- Mark messages as read or unread.
+- Archive or delete messages when appropriate.
+
+#### 7.3 Announcements
+
+Allow the Admin to:
+
+- Create, edit, publish, and delete announcements.
+- Send announcements to all users or selected roles.
+- Target specific classes, courses, instructors, students, or parents.
+- Schedule announcements for future publication.
+- View published and scheduled announcements.
+
+#### 7.4 Notifications
+
+Allow the Admin to:
+
+- View system notifications.
+- Send notifications to selected users or groups.
+- Manage notification preferences.
+- Mark notifications as read or unread.
+- Receive alerts about important academy activities and system events.
+
+#### 7.5 Support & Feedback
+
+Allow the Admin to:
+
+- View support requests, complaints, and feedback.
+- Respond to user inquiries.
+- Assign support requests to authorized staff.
+- Update request statuses, such as Open, In Progress, and Resolved.
+- Review feedback and monitor support history.
+
+### 8. My Account
+
+#### 8.1 My Profile
+
+Allow the Admin to:
+
+- View and edit personal profile information.
+- Update name, profile photo, email, phone number, and other permitted details.
+- Save and display updated profile information.
+
+#### 8.2 Account Settings
+
+Allow the Admin to:
+
+- Manage personal account preferences.
+- Configure language and timezone preferences.
+- Manage notification preferences.
+- Update other available account settings.
+
+#### 8.3 Change Password
+
+Allow the Admin to:
+
+- Change the account password securely.
+- Require the current password before accepting a new password.
+- Validate password strength and confirmation.
+- Store passwords securely using password hashing.
+
+#### 8.4 Logout
+
+Allow the Admin to:
+
+- Securely end the current session.
+- Invalidate or terminate authentication credentials as appropriate.
+- Redirect the user to the login page.
+- Prevent access to protected pages after logout.
+
+---
+
+## GLOBAL DEVELOPMENT REQUIREMENTS
+
+Apply these requirements to every menu and submenu:
+
+1. Every menu item must be clickable and open the correct page.
+2. Every page must have a clear title, relevant content, and appropriate actions.
+3. Implement functional Create, Read, Update, and Delete (CRUD) operations wherever applicable.
+4. Connect all modules to the backend API and MySQL database using Prisma ORM.
+5. Use real database records instead of hardcoded demonstration data.
+6. Implement search, filtering, sorting, and pagination where appropriate.
+7. Add form validation and clear success and error messages.
+8. Include loading states, empty states, and error handling.
+9. Use confirmation dialogs before important destructive actions.
+10. Enforce Role-Based Access Control (RBAC) on both frontend and backend.
+11. Ensure Admins can only access the permissions and functions assigned by the Owner.
+12. Protect sensitive information and follow secure authentication practices.
+13. Make the dashboard responsive on desktop, tablet, and mobile devices.
+14. Maintain a consistent design, navigation system, and user experience across all modules.
+15. Record important administrative actions in the Audit Logs.
+16. Do not create buttons or menu items that look functional but do nothing.
+17. Ensure that saved, edited, or deleted information is reflected immediately in the interface.
+18. Test every menu, submenu, button, form, API endpoint, and permission before considering the module complete.
+
+## EXPECTED RESULT
+
+Deliver a fully functional Admin Dashboard for Ezana Academy. Every menu and submenu must perform its specified function, communicate with the backend, and store or retrieve the correct information from the database.
+
+Build the modules in a structured way, maintain clean and reusable code, and ensure that the system is secure, scalable, responsive, and easy to maintain.
+
+The Admin Dashboard must support daily academy administration while respecting the access restrictions and permissions established by the Owner.
+
+# INSTRUCTOR DASHBOARD
+
+- Teaching and learning management
+
+# EZANA ACADEMY – INSTRUCTOR DASHBOARD MENU FUNCTIONALITY SPECIFICATION
+
+## General Instructions
+
+Build the Instructor Dashboard for Ezana Academy, an online learning management platform.
+
+Every menu and submenu must be fully functional. When the Instructor clicks a menu item, the system must open its corresponding page and allow the Instructor to perform the actions described below, limited to their assigned courses, classes, students, and permissions.
+
+### 1. Dashboard
+
+Display an overview of the Instructor's teaching activities, including:
+
+- Total assigned courses and classes.
+- Total enrolled students.
+- Upcoming lessons, classes, and examinations.
+- Pending assignments and student submissions.
+- Attendance summaries.
+- Student academic performance and progress.
+- Recent activities, messages, and notifications.
+
+### 2. Course Management
+
+#### 2.1 My Courses
+
+Allow the Instructor to:
+
+- View all assigned courses.
+- Open and manage course details.
+- View enrolled students and course information.
+- Monitor course progress and completion.
+- Update course content according to assigned permissions.
+
+#### 2.2 Create New Course
+
+Allow the Instructor to:
+
+- Create new courses when authorized.
+- Add course titles, descriptions, images, and learning objectives.
+- Organize course lessons and topics.
+- Upload course materials.
+- Submit courses for approval or publication according to academy permissions.
+
+#### 2.3 Course Materials
+
+Allow the Instructor to:
+
+- Upload and manage course materials.
+- Add videos, PDFs, documents, presentations, and learning files.
+- Organize materials by course, lesson, and topic.
+- Edit, preview, replace, and delete materials.
+- Make materials available to enrolled students.
+
+#### 2.4 E-Learning Resources
+
+Allow the Instructor to:
+
+- Upload and manage digital learning resources.
+- Organize resources by subject, course, and category.
+- Share learning materials with assigned students.
+- Preview and download available resources.
+- Control resource visibility according to assigned permissions.
+
+#### 2.5 Course Announcements
+
+Allow the Instructor to:
+
+- Create and publish announcements for assigned courses.
+- Share course updates, lesson information, and important notices.
+- Edit and delete announcements.
+- Schedule announcements when supported.
+- Notify enrolled students about course updates.
+
+### 3. Class Management
+
+#### 3.1 My Classes
+
+Allow the Instructor to:
+
+- View all assigned classes and sections.
+- Access class details, schedules, and enrolled students.
+- Manage class activities and learning sessions.
+- View class attendance and academic performance.
+- Organize and monitor assigned classes.
+
+#### 3.2 My Students
+
+Allow the Instructor to:
+
+- View students enrolled in assigned courses and classes.
+- Access student profiles and academic information.
+- Search and filter students.
+- Monitor individual student participation and progress.
+- View student attendance and assessment performance.
+
+#### 3.3 Student Records
+
+Allow the Instructor to:
+
+- View permitted student personal and academic information.
+- Access student enrollment and course history.
+- Review attendance, grades, and assessment records.
+- Update relevant academic records where authorized.
+- Search and filter assigned student records.
+
+#### 3.4 Timetables & Scheduling
+
+Allow the Instructor to:
+
+- View assigned class timetables and teaching schedules.
+- View lesson dates, times, and locations.
+- Manage lesson schedules where authorized.
+- View examination and assessment schedules.
+- Receive alerts about schedule changes and conflicts.
+
+#### 3.5 Attendance Tracking
+
+Allow the Instructor to:
+
+- Record attendance for assigned classes.
+- Mark students as present, absent, or late.
+- Edit attendance records where authorized.
+- View attendance history and percentages.
+- Generate attendance summaries for assigned students and classes.
+
+#### 3.6 Live Classes
+
+Allow the Instructor to:
+
+- Schedule and manage live online classes.
+- Create or access live class sessions.
+- Share live class links with enrolled students.
+- Start, manage, and end live sessions.
+- View participant attendance.
+- Share learning materials during live classes where supported.
+
+### 4. Assignments & Assessments
+
+#### 4.1 Create Assignments
+
+Allow the Instructor to:
+
+- Create assignments for assigned courses and classes.
+- Add assignment titles, descriptions, and instructions.
+- Set submission deadlines and maximum scores.
+- Attach supporting learning materials.
+- Publish assignments for enrolled students.
+
+#### 4.2 Manage Assignments
+
+Allow the Instructor to:
+
+- View, edit, and manage created assignments.
+- Update assignment instructions and deadlines.
+- Monitor assignment publication status.
+- View student submission progress.
+- Close, reopen, or archive assignments where authorized.
+
+#### 4.3 Quizzes & Exams
+
+Allow the Instructor to:
+
+- Create and manage quizzes and examinations.
+- Add questions, answers, and scoring rules.
+- Set examination dates, durations, and deadlines.
+- Configure assessment instructions and availability.
+- View student examination results and completion status.
+
+#### 4.4 Question Bank
+
+Allow the Instructor to:
+
+- Create and manage assessment questions.
+- Organize questions by subject, course, and topic.
+- Add multiple-choice, true/false, and other supported question types.
+- Edit, search, and reuse questions.
+- Assign questions to quizzes and examinations.
+
+#### 4.5 Submissions
+
+Allow the Instructor to:
+
+- View student assignment and assessment submissions.
+- Open and review submitted files and answers.
+- Track submitted, pending, and late submissions.
+- Provide feedback and comments.
+- Identify students who have not submitted their work.
+
+#### 4.6 Grading & Evaluation
+
+Allow the Instructor to:
+
+- Grade student assignments, quizzes, and examinations.
+- Assign scores based on assessment criteria.
+- Provide written feedback and evaluation comments.
+- Save and update grades.
+- Return graded work to students.
+- Track grading progress and pending evaluations.
+
+#### 4.7 Grades & Report Cards
+
+Allow the Instructor to:
+
+- View and manage grades for assigned students.
+- Record and update assessment results where authorized.
+- View student academic performance by course and class.
+- Generate or submit report card information.
+- Review grading summaries and academic results.
+- Export and print permitted academic reports.
+
+### 5. Student Performance
+
+#### 5.1 Student Progress
+
+Allow the Instructor to:
+
+- Monitor individual student learning progress.
+- View course completion and assessment performance.
+- Track assignment and examination results.
+- Identify students who need academic support.
+- Review progress by student, class, and course.
+
+#### 5.2 Performance Reports
+
+Allow the Instructor to:
+
+- Generate academic performance reports for assigned students.
+- View grades, attendance, assessment scores, and progress.
+- Compare student performance across assessments.
+- Identify strengths and areas requiring improvement.
+- Export and download permitted reports.
+
+#### 5.3 Learning Activities
+
+Allow the Instructor to:
+
+- Monitor student participation in online learning activities.
+- View lesson access and learning resource usage.
+- Track assignment submissions and quiz participation.
+- Monitor student engagement and learning activity history.
+- Identify inactive students and students requiring follow-up.
+
+#### 5.4 Course Completion
+
+Allow the Instructor to:
+
+- Monitor student progress toward course completion.
+- View completed and pending lessons and activities.
+- Track course completion percentages.
+- Identify students who have completed course requirements.
+- Submit or confirm completion records where authorized.
+
+### 6. Communication
+
+#### 6.1 Parent Communication
+
+Allow the Instructor to:
+
+- Communicate with parents of assigned students.
+- Share updates about student attendance and academic performance.
+- Discuss student progress and learning challenges.
+- Respond to parent inquiries.
+- Maintain parent communication history.
+
+#### 6.2 Student Messages
+
+Allow the Instructor to:
+
+- Send and receive private messages from assigned students.
+- View and manage student conversations.
+- Respond to academic questions and inquiries.
+- Search and organize messages.
+- Mark messages as read or unread.
+
+#### 6.3 Discussion Forums
+
+Allow the Instructor to:
+
+- Create and manage course discussion forums.
+- Participate in student discussions.
+- Post questions, answers, and learning topics.
+- Moderate discussions and remove inappropriate content where authorized.
+- Encourage academic collaboration and participation.
+
+#### 6.4 Class Announcements
+
+Allow the Instructor to:
+
+- Create and publish announcements for assigned classes.
+- Share class schedules, lesson updates, and examination notices.
+- Edit and manage published announcements.
+- Schedule announcements when supported.
+- Notify students about important class activities.
+
+#### 6.5 Notifications
+
+Allow the Instructor to:
+
+- View notifications about assigned courses and classes.
+- Receive alerts about new student submissions.
+- Receive reminders about upcoming lessons and examinations.
+- View messages, announcements, and schedule updates.
+- Manage notification preferences.
+
+### 7. Earnings & Payments
+
+#### 7.1 My Earnings
+
+Allow the Instructor to:
+
+- View earnings from assigned teaching activities.
+- Monitor total, pending, and paid earnings.
+- View payment calculations and applicable earning periods.
+- Review earnings summaries and payment status.
+- Download permitted earnings statements.
+
+#### 7.2 Payment History
+
+Allow the Instructor to:
+
+- View previous instructor payments.
+- Track payment dates, amounts, and transaction references.
+- View pending, completed, and failed payments.
+- Search and filter payment records.
+- Download and print payment statements.
+
+### 8. My Account
+
+#### 8.1 My Profile
+
+Allow the Instructor to:
+
+- View and edit personal profile information.
+- Update name, profile photo, email, phone number, and other permitted details.
+- Update qualifications, experience, and professional information where authorized.
+- Save and display updated profile information.
+
+#### 8.2 Account Settings
+
+Allow the Instructor to:
+
+- Manage personal account preferences.
+- Configure language and timezone preferences.
+- Manage notification preferences.
+- Update other available account settings.
+
+#### 8.3 Change Password
+
+Allow the Instructor to:
+
+- Change the account password securely.
+- Require the current password before accepting a new password.
+- Validate password strength and confirmation.
+- Store passwords securely using password hashing.
+
+#### 8.4 Logout
+
+Allow the Instructor to:
+
+- Securely end the current session.
+- Invalidate or terminate authentication credentials as appropriate.
+- Redirect the user to the login page.
+- Prevent access to protected pages after logout.
+
+---
+
+## GLOBAL DEVELOPMENT REQUIREMENTS
+
+Apply these requirements to every menu and submenu:
+
+1. Every menu item must be clickable and open the correct page.
+2. Every page must have a clear title, relevant content, and appropriate actions.
+3. Implement functional Create, Read, Update, and Delete (CRUD) operations wherever applicable.
+4. Connect all modules to the backend API and MySQL database using Prisma ORM.
+5. Use real database records instead of hardcoded demonstration data.
+6. Implement search, filtering, sorting, and pagination where appropriate.
+7. Add form validation and clear success and error messages.
+8. Include loading states, empty states, and error handling.
+9. Use confirmation dialogs before important destructive actions.
+10. Enforce Role-Based Access Control (RBAC) on both frontend and backend.
+11. Ensure Instructors can only access their assigned courses, classes, students, records, and authorized functions.
+12. Prevent Instructors from accessing or modifying other instructors' private data and unauthorized academy settings.
+13. Protect sensitive student, parent, academic, and financial information.
+14. Make the dashboard responsive on desktop, tablet, and mobile devices.
+15. Maintain a consistent design, navigation system, and user experience across all modules.
+16. Record important instructor activities in the Audit Logs.
+17. Do not create buttons or menu items that look functional but do nothing.
+18. Ensure that saved, edited, or deleted information is reflected immediately in the interface.
+19. Test every menu, submenu, button, form, API endpoint, and permission before considering the module complete.
+
+## EXPECTED RESULT
+
+Deliver a fully functional Instructor Dashboard for Ezana Academy. Every menu and submenu must perform its specified function, communicate with the backend, and store or retrieve the correct information from the database.
+
+Build the modules in a structured way, maintain clean and reusable code, and ensure that the system is secure, scalable, responsive, and easy to maintain.
+
+The Instructor Dashboard must provide all necessary teaching and course management tools while ensuring that each Instructor can only access their assigned courses, classes, students, and authorized academic functions.
+
+# STUDENT DASHBOARD
+
+- Personal learning environment
+
+# EZANA ACADEMY – STUDENT DASHBOARD MENU FUNCTIONALITY SPECIFICATION
+
+## General Instructions
+
+Develop a fully functional Student Dashboard for Ezana Academy.
+
+The Student Dashboard must allow students to access their courses, learning materials, academic activities, communication tools, and payment information.
+
+- Display only the menus and information the logged-in student is authorized to access.
+- Connect every menu and submenu to its correct page and functionality.
+- Ensure all information belongs to the currently logged-in student.
+- Students must only view their own academic records, attendance, grades, payments, and personal information.
+- All buttons, forms, links, filters, and actions must work correctly.
+- Display real-time information from the database.
+
+---
+
+### 1. Dashboard
+
+Allow the Student to:
+
+- View a personalized welcome message.
+- View a summary of enrolled courses, completed courses, and courses in progress.
+- View upcoming classes, assignments, quizzes, and examinations.
+- View recent grades and academic performance.
+- View attendance summaries.
+- View pending assignments and upcoming deadlines.
+- View outstanding fees and payment status.
+- View recent announcements and notifications.
+- Access frequently used learning activities through quick-action links.
+
+### 2. My Learning
+
+#### 2.1 My Courses
+
+Allow the Student to:
+
+- View all courses in which they are enrolled.
+- Open and access enrolled courses.
+- View course descriptions, instructors, subjects, and learning objectives.
+- View course progress and completion status.
+- Access lessons, modules, and course materials.
+- Continue learning from the last accessed lesson.
+
+#### 2.2 Explore Courses
+
+Allow the Student to:
+
+- Browse available courses.
+- Search and filter courses by subject, category, level, or instructor.
+- View course descriptions and details.
+- View course requirements and enrollment availability.
+- Submit course enrollment requests where permitted.
+- View enrollment request status.
+- Prevent enrollment in courses for which the student is not eligible.
+
+#### 2.3 Continue Learning
+
+Allow the Student to:
+
+- Resume a course from the last completed or accessed lesson.
+- View recently accessed courses and lessons.
+- Track lesson completion.
+- Continue unfinished learning activities.
+- Navigate to the next available lesson or module.
+- Automatically update learning progress.
+
+#### 2.4 Course Materials
+
+Allow the Student to:
+
+- Access materials provided by instructors.
+- View and download authorized documents, presentations, and learning files.
+- Access course notes, videos, and other learning materials.
+- Search and filter materials by course or subject.
+- Open materials directly from the relevant course.
+- Access only materials assigned or made available to the student.
+
+#### 2.5 E-Learning Resources
+
+Allow the Student to:
+
+- Access additional learning resources provided by the academy.
+- View educational videos, documents, links, and reference materials.
+- Search and filter resources by subject or category.
+- Open or download available resources.
+- Access resources according to assigned permissions.
+
+#### 2.6 Live Classes
+
+Allow the Student to:
+
+- View scheduled live classes.
+- View class dates, times, subjects, and instructors.
+- Join live classes using the provided meeting link.
+- View upcoming and previous live-class sessions.
+- Receive notifications about schedule changes.
+- Access recordings when instructors make them available.
+
+#### 2.7 My Learning Schedule
+
+Allow the Student to:
+
+- View a personal learning schedule.
+- View scheduled courses, lessons, and live classes.
+- View upcoming learning activities and deadlines.
+- Switch between daily, weekly, and monthly calendar views.
+- View relevant dates, times, subjects, and instructors.
+- Receive updates when the learning schedule changes.
+
+### 3. Academic Activities
+
+#### 3.1 My Timetable
+
+Allow the Student to:
+
+- View their assigned class timetable.
+- View subjects, instructors, classrooms, dates, and times.
+- Switch between daily and weekly timetable views.
+- Receive notifications about timetable changes.
+- Access only the timetable assigned to their class or enrollment.
+
+#### 3.2 My Attendance
+
+Allow the Student to:
+
+- View personal attendance records.
+- View attendance by course, subject, or date.
+- Check present, absent, and late attendance records.
+- View total attendance and absence summaries.
+- Report attendance record discrepancies through an available request process.
+- View attendance history without editing official records.
+
+#### 3.3 My Assignments
+
+Allow the Student to:
+
+- View assigned tasks and assignments.
+- View assignment instructions, attachments, and deadlines.
+- Download assignment materials.
+- Submit assignments online where submission is enabled.
+- Upload documents and other permitted submission files.
+- View submission status and submission dates.
+- View instructor feedback and marks when released.
+- Receive notifications about upcoming deadlines and overdue assignments.
+
+#### 3.4 Quizzes & Exams
+
+Allow the Student to:
+
+- View available quizzes and examinations.
+- View exam instructions, dates, times, and duration.
+- Start assessments when they become available.
+- Answer and submit assessment questions.
+- Save answers where supported.
+- View submission confirmation.
+- Prevent access to assessments outside their authorized availability period.
+- View assessment results when released by the instructor or academy.
+
+#### 3.5 Exam Results
+
+Allow the Student to:
+
+- View examination results released to them.
+- View marks by subject, course, or examination.
+- View examination dates and assessment details.
+- View pass or fail status where applicable.
+- View instructor comments or feedback when available.
+- Access previous examination results.
+
+#### 3.6 My Grades & Report Cards
+
+Allow the Student to:
+
+- View personal grades and academic results.
+- View grades by subject, course, semester, or academic year.
+- View assignment, quiz, examination, and final grades.
+- View total marks, averages, and grading status where applicable.
+- Access published report cards.
+- Download or print available report cards.
+- View only grades and reports officially released to them.
+
+#### 3.7 Learning Progress
+
+Allow the Student to:
+
+- Track progress across enrolled courses.
+- View completed, ongoing, and pending lessons.
+- View course completion percentages.
+- Monitor assignment and assessment completion.
+- View learning achievements and milestones.
+- Identify incomplete learning activities.
+- View progress reports and performance summaries.
+
+#### 3.8 My Certificates
+
+Allow the Student to:
+
+- View certificates issued to them.
+- View certificate titles, courses, issue dates, and completion details.
+- Download or print available certificates.
+- Verify certificate details where verification is supported.
+- Access certificates only after meeting the academy's completion requirements.
+
+### 4. Communication
+
+#### 4.1 Messages
+
+Allow the Student to:
+
+- View received messages.
+- Send messages to authorized instructors and academy staff.
+- Reply to existing conversations.
+- View message dates and read status.
+- Search and organize conversations.
+- Receive notifications for new messages.
+
+#### 4.2 Parent Communication
+
+Allow the Student to:
+
+- View messages shared with them through authorized parent communication channels.
+- Communicate with linked parents or guardians where enabled.
+- View relevant communication history.
+- Receive notifications about parent-related academic communication.
+- Respect privacy and communication permissions established by the academy.
+
+#### 4.3 Discussion Forums
+
+Allow the Student to:
+
+- View available course and subject discussion forums.
+- Create discussion posts where permitted.
+- Reply to other students' posts.
+- Ask academic questions and participate in discussions.
+- Share relevant learning information.
+- View instructor responses and announcements.
+- Follow forum rules and academy moderation policies.
+
+#### 4.4 Announcements
+
+Allow the Student to:
+
+- View announcements published by the academy and instructors.
+- Read academic notices, examination updates, and important information.
+- View announcement dates and publishing sources.
+- Access announcement attachments where available.
+- View announcements relevant to their courses or class.
+
+#### 4.5 Notifications
+
+Allow the Student to:
+
+- Receive notifications about assignments, exams, grades, messages, and announcements.
+- Receive reminders about upcoming classes and deadlines.
+- View read and unread notifications.
+- Mark notifications as read.
+- Open the relevant page directly from a notification.
+- Manage available notification preferences.
+
+### 5. Fees & Payments
+
+#### 5.1 My Fees
+
+Allow the Student to:
+
+- View their assigned tuition and other academy fees.
+- View fee descriptions, amounts, due dates, and payment status.
+- View paid, unpaid, partially paid, and overdue balances.
+- View outstanding balances.
+- Access fee details for the relevant academic period.
+- View only fees assigned to their student account.
+
+#### 5.2 Make a Payment
+
+Allow the Student to:
+
+- Select an outstanding fee for payment.
+- View the amount due before making payment.
+- Select an available payment method.
+- Complete payments through configured payment gateways.
+- View payment confirmation after successful transactions.
+- Receive an error message when a payment fails.
+- Prevent duplicate payment submissions.
+- Update payment status only after receiving verified payment confirmation.
+
+#### 5.3 Payment History
+
+Allow the Student to:
+
+- View personal payment transactions.
+- View payment dates, amounts, references, and methods.
+- Check successful, pending, and failed payment statuses.
+- Search and filter transactions by date or payment status.
+- View transaction details.
+- Access payment history for previous academic periods.
+
+#### 5.4 Invoices & Receipts
+
+Allow the Student to:
+
+- View invoices issued to their account.
+- Open and download invoices.
+- View payment receipts for successful transactions.
+- Download or print receipts.
+- View invoice numbers, issue dates, due dates, and amounts.
+- Access only invoices and receipts associated with their student account.
+
+### 6. My Account
+
+#### 6.1 My Profile
+
+Allow the Student to:
+
+- View personal profile information.
+- View name, student ID, email, phone number, and other permitted details.
+- View academic and enrollment information.
+- Update editable personal information where authorized.
+- Submit profile correction requests where direct editing is restricted.
+- Upload or update a profile picture where enabled.
+
+#### 6.2 Account Settings
+
+Allow the Student to:
+
+- Manage available account preferences.
+- Update permitted contact information.
+- Manage language and notification preferences where supported.
+- View account status and basic account information.
+- Save changes securely.
+
+#### 6.3 Change Password
+
+Allow the Student to:
+
+- Change their account password.
+- Enter their current password.
+- Enter and confirm a new password.
+- Enforce password security requirements.
+- Display confirmation after a successful password change.
+- Reject incorrect current passwords and weak passwords.
+
+#### 6.4 Logout
+
+Allow the Student to:
+
+- Log out securely from the platform.
+- End the active authenticated session.
+- Clear or invalidate the active session credentials.
+- Redirect to the login page after logout.
+- Prevent access to protected student pages after logout until the student signs in again.
+
+---
+
+## GLOBAL DEVELOPMENT REQUIREMENTS
+
+1. **Role-Based Access Control (RBAC):** Students must only access student-authorized menus, pages, records, and actions.
+
+2. **Student Data Privacy:** Students must only access their own courses, attendance, assignments, grades, certificates, messages, and financial records.
+
+3. **Database Integration:** All student information must be retrieved from and saved to the correct database records.
+
+4. **Functional Navigation:** Every sidebar menu, submenu, button, and action must navigate to or perform its intended function.
+
+5. **Real-Time Updates:** Update relevant information when new grades, attendance records, assignments, announcements, messages, or payment statuses become available.
+
+6. **Search and Filtering:** Implement appropriate search, sorting, and filtering functionality wherever necessary.
+
+7. **File Management:** Support secure uploading, viewing, and downloading of authorized learning materials, assignment submissions, invoices, receipts, and certificates.
+
+8. **Notifications:** Display relevant alerts and reminders for academic activities, communication, and payments.
+
+9. **Security:** Protect student accounts and data using secure authentication, authorization, input validation, and appropriate session management.
+
+10. **Responsive Design:** Ensure the Student Dashboard works properly on desktop computers, tablets, and mobile devices.
+
+11. **User-Friendly Interface:** Maintain a clean, modern, consistent, and easy-to-use interface.
+
+12. **Data Accuracy:** Display accurate information based on the student's actual enrollment, academic records, and account transactions.
+
+13. **No Dummy Functionality:** Do not create buttons or menus that appear functional but have no working action. Implement the required backend and frontend functionality.
+
+14. **Access Restrictions:** Students must not be able to modify official grades, attendance records, payment confirmations, examination results, or other restricted academic and financial records.
+
+15. **Error Handling:** Display clear success messages, validation errors, loading indicators, and appropriate error messages.
+
+## EXPECTED RESULT
+
+Deliver a fully functional, secure, responsive, and user-friendly Student Dashboard for Ezana Academy.
+
+Every sidebar menu and submenu must perform its specified function when clicked. Students must be able to manage their learning activities, access academic information, communicate with instructors and the academy, monitor fees and payments, and manage their personal accounts.
+
+The system must enforce student-level permissions and ensure that each student can only access their own authorized information and records.
+
+# PARENT DASHBOARD
+
+- Child monitoring and engagement
+
+# EZANA ACADEMY – PARENT DASHBOARD MENU FUNCTIONALITY SPECIFICATION
+
+## General Instructions
+
+Develop a fully functional Parent Dashboard for Ezana Academy.
+
+The Parent Dashboard must allow parents or guardians to monitor their linked children's academic performance, learning progress, attendance, schedules, assignments, examination results, fees, and communication with instructors and academy administrators.
+
+- Display only children officially linked to the logged-in parent account.
+- Ensure parents can only access information belonging to their linked children.
+- Support multiple children under one parent account.
+- Allow parents to switch between linked children's records.
+- Connect every menu and submenu to its correct page and functionality.
+- All buttons, forms, links, filters, and actions must work correctly.
+- Display accurate information retrieved from the database.
+
+---
+
+### 1. Dashboard
+
+Allow the Parent to:
+
+- View a personalized welcome message.
+- View a summary of all linked children.
+- View each child's name, profile picture, class, and academic status.
+- View enrolled courses and overall learning progress.
+- View attendance summaries for each child.
+- View recent grades and academic performance.
+- View upcoming classes, assignments, and examinations.
+- View outstanding fees and payment statuses.
+- View recent announcements and messages from instructors and the academy.
+- Receive notifications about important academic activities.
+- Switch between linked children's dashboard information.
+- Access important activities through quick-action links.
+
+### 2. My Children
+
+#### 2.1 All My Children
+
+Allow the Parent to:
+
+- View a list of all children linked to their account.
+- View each child's name, student ID, profile picture, class, and enrollment status.
+- Open an individual child's information.
+- View a summary of each child's academic progress.
+- Access each child's attendance, grades, courses, and fee information.
+- Select a child to view their detailed dashboard.
+- Display only children officially linked and authorized by the academy.
+
+#### 2.2 Child Profiles
+
+Allow the Parent to:
+
+- View each linked child's profile.
+- View personal and academic information permitted by the academy.
+- View student ID, class, academic year, and enrollment details.
+- View assigned instructors and relevant academic information.
+- View available contact and emergency information where authorized.
+- Submit requests to correct inaccurate profile information.
+- Prevent unauthorized editing of official student records.
+
+#### 2.3 Academic Information
+
+Allow the Parent to:
+
+- View the child's academic details.
+- View enrolled courses, subjects, and assigned class.
+- View academic year, semester, and term information.
+- View assigned instructors and class information.
+- View academic status and overall performance.
+- Access relevant academic records and reports.
+- View information only for the selected linked child.
+
+#### 2.4 Switch Child
+
+Allow the Parent to:
+
+- Switch between all children linked to their account.
+- Select a child from a list or dropdown menu.
+- Automatically update dashboard information after switching.
+- Display the selected child's courses, attendance, grades, assignments, and fees.
+- Clearly identify which child's information is currently being viewed.
+- Maintain the selected child while navigating relevant dashboard pages.
+- Prevent switching to children who are not linked to the parent account.
+
+### 3. Academic Monitoring
+
+#### 3.1 Enrolled Courses
+
+Allow the Parent to:
+
+- View all courses in which the selected child is enrolled.
+- View course names, subjects, instructors, and enrollment status.
+- View course descriptions and academic details.
+- Check whether courses are active, completed, or pending.
+- Open course information and available learning summaries.
+- Monitor course enrollment across academic periods.
+
+#### 3.2 Course Progress
+
+Allow the Parent to:
+
+- View the child's progress in each enrolled course.
+- View completed and remaining lessons or modules.
+- View course completion percentages.
+- Identify courses where the child is falling behind.
+- Monitor learning milestones and completion status.
+- View progress updates provided by instructors.
+
+#### 3.3 Timetables & Scheduling
+
+Allow the Parent to:
+
+- View the child's class timetable.
+- View subjects, instructors, classrooms, dates, and times.
+- View upcoming lessons, live classes, and academic activities.
+- Switch between daily and weekly schedule views.
+- View examination and important academic dates.
+- Receive notifications about timetable changes.
+- Monitor schedules for each linked child separately.
+
+#### 3.4 Attendance Tracking
+
+Allow the Parent to:
+
+- View the child's attendance records.
+- Check present, absent, and late attendance status.
+- View attendance by date, subject, or course.
+- View total attendance and absence summaries.
+- Identify repeated absences or attendance concerns.
+- View attendance history.
+- Receive notifications about important attendance updates.
+- Submit attendance-related inquiries where supported.
+- Prevent unauthorized modification of official attendance records.
+
+#### 3.5 Grades & Report Cards
+
+Allow the Parent to:
+
+- View the child's academic grades.
+- View grades by subject, course, semester, or academic year.
+- View assignment, quiz, examination, and final grades.
+- View total marks, averages, and grading status where applicable.
+- Access published report cards.
+- Download or print available report cards.
+- Monitor academic performance over time.
+- View only grades and reports officially released by the academy.
+
+#### 3.6 Assignments & Exams
+
+Allow the Parent to:
+
+- View assignments given to the child.
+- View assignment descriptions and submission deadlines.
+- Check submitted, pending, and overdue assignments.
+- View upcoming quizzes and examinations.
+- View examination dates, times, and instructions where available.
+- Monitor assignment completion and examination participation.
+- View instructor feedback when released.
+- Receive notifications about upcoming deadlines and examinations.
+- Monitor academic activities without modifying or submitting work on behalf of the child unless explicitly authorized.
+
+#### 3.7 Examination Results
+
+Allow the Parent to:
+
+- View the child's released examination results.
+- View marks by subject, course, and examination.
+- View examination dates and assessment details.
+- View pass or fail status where applicable.
+- View instructor comments and feedback when available.
+- Compare results across previous examinations and academic periods.
+- Download or print available examination results.
+
+#### 3.8 Learning Progress
+
+Allow the Parent to:
+
+- Monitor the child's overall learning progress.
+- View completed, ongoing, and pending lessons.
+- View course completion percentages.
+- Track assignment and assessment completion.
+- View learning activities and academic milestones.
+- Identify subjects or courses where additional support may be needed.
+- View progress reports and performance summaries.
+- Monitor progress updates from instructors.
+
+#### 3.9 Certificates & Achievements
+
+Allow the Parent to:
+
+- View certificates awarded to the child.
+- View completed courses and academic achievements.
+- View certificate titles, issue dates, and completion details.
+- Download or print available certificates.
+- View academic awards and learning milestones.
+- Verify certificate details where verification is supported.
+
+#### 3.10 E-Learning Resources
+
+Allow the Parent to:
+
+- View learning resources made available to the child.
+- View educational videos, documents, links, and reference materials.
+- Monitor available supplementary learning materials.
+- Search and filter resources by subject or category.
+- Open or download resources where permitted.
+- Access only resources authorized for the selected child.
+
+### 4. Fees & Payments
+
+#### 4.1 Child's Fees
+
+Allow the Parent to:
+
+- View fees assigned to each linked child.
+- View tuition fees and other applicable academy charges.
+- View fee descriptions, amounts, and payment due dates.
+- Check paid, unpaid, partially paid, and overdue fee statuses.
+- View fee details by academic year, semester, or term.
+- Switch between children to view their individual fee records.
+- View only fees officially assigned to the selected child.
+
+#### 4.2 Make a Payment
+
+Allow the Parent to:
+
+- Select a linked child whose fees need to be paid.
+- Select an outstanding fee for payment.
+- View the child's name, fee description, and amount due before payment.
+- Select an available payment method.
+- Complete payments through configured payment gateways.
+- View payment confirmation after a successful transaction.
+- Receive an error message when a payment fails.
+- Prevent duplicate payment submissions.
+- Update payment status only after receiving verified payment confirmation.
+- Associate every successful payment with the correct child and fee record.
+
+#### 4.3 Payment History
+
+Allow the Parent to:
+
+- View payment transactions for all linked children.
+- Filter payment records by child, date, or payment status.
+- View payment dates, amounts, references, and methods.
+- Check successful, pending, and failed payment statuses.
+- Open individual transaction details.
+- View payment history across previous academic periods.
+- Clearly identify which child each payment belongs to.
+
+#### 4.4 Outstanding Balances
+
+Allow the Parent to:
+
+- View unpaid and overdue balances for each linked child.
+- View outstanding amounts by fee type and academic period.
+- Identify upcoming payment deadlines.
+- View partially paid fees and remaining balances.
+- View total outstanding balances across all linked children.
+- Filter outstanding balances by child.
+- Access the relevant payment page directly from an outstanding fee.
+
+#### 4.5 Invoices & Receipts
+
+Allow the Parent to:
+
+- View invoices issued for each linked child.
+- Open and download invoices.
+- View receipts for successful payments.
+- Download or print payment receipts.
+- View invoice numbers, issue dates, due dates, and amounts.
+- Filter invoices and receipts by child or date.
+- Clearly identify the child associated with each invoice or receipt.
+
+### 5. Parent Communication
+
+#### 5.1 Messages to Instructors
+
+Allow the Parent to:
+
+- View messages received from instructors.
+- Send messages to authorized instructors.
+- Select the relevant child when contacting an instructor.
+- Reply to existing conversations.
+- View message dates and read status.
+- Search and organize conversations.
+- Receive notifications for new instructor messages.
+- Access communication only for instructors associated with their linked children, where applicable.
+
+#### 5.2 Messages to Admin
+
+Allow the Parent to:
+
+- View messages received from academy administrators.
+- Send inquiries to authorized administrative staff.
+- Ask questions about enrollment, academic matters, fees, and student records.
+- Reply to existing conversations.
+- Attach relevant documents where supported.
+- View message history and read status.
+- Receive notifications about administrative responses.
+
+#### 5.3 Teacher Communication
+
+Allow the Parent to:
+
+- View teacher communication related to their children.
+- Communicate with authorized teachers and instructors.
+- View academic feedback and important teacher updates.
+- Discuss attendance, academic progress, and learning concerns.
+- Select the relevant child when communicating.
+- Maintain a history of teacher-parent communication.
+- Receive notifications about new communication.
+
+#### 5.4 Academy Announcements
+
+Allow the Parent to:
+
+- View announcements published by the academy.
+- Read academic notices, examination updates, fee announcements, and important information.
+- View announcement dates and publishing sources.
+- Access relevant announcement attachments.
+- View announcements applicable to their linked children.
+- Receive notifications about important academy announcements.
+
+#### 5.5 Notifications
+
+Allow the Parent to:
+
+- Receive notifications about children's attendance, grades, assignments, examinations, and learning progress.
+- Receive fee reminders and payment confirmations.
+- Receive messages from instructors and academy administrators.
+- Receive timetable changes and important announcements.
+- View read and unread notifications.
+- Mark notifications as read.
+- Open the relevant child or dashboard page directly from a notification.
+- Manage available notification preferences.
+
+### 6. My Account
+
+#### 6.1 My Profile
+
+Allow the Parent to:
+
+- View personal profile information.
+- View name, email address, phone number, and other permitted details.
+- Update editable personal information where authorized.
+- Upload or update a profile picture where enabled.
+- Submit profile correction requests where direct editing is restricted.
+
+#### 6.2 Linked Children
+
+Allow the Parent to:
+
+- View all children officially linked to their account.
+- View each child's name, student ID, class, and relationship information where available.
+- Submit a request to link an additional child.
+- Submit a request to correct an incorrect child-account link.
+- View the status of submitted linking requests.
+- Allow academy administrators to verify and approve linking requests.
+- Prevent access to unverified or unauthorized student accounts.
+- Remove or unlink a child only through an authorized academy process.
+
+#### 6.3 Account Settings
+
+Allow the Parent to:
+
+- Manage available account preferences.
+- Update permitted contact information.
+- Manage language and notification preferences where supported.
+- View account status and basic account information.
+- Save changes securely.
+
+#### 6.4 Change Password
+
+Allow the Parent to:
+
+- Change their account password.
+- Enter their current password.
+- Enter and confirm a new password.
+- Enforce password security requirements.
+- Display confirmation after a successful password change.
+- Reject incorrect current passwords and weak passwords.
+
+#### 6.5 Logout
+
+Allow the Parent to:
+
+- Log out securely from the platform.
+- End the active authenticated session.
+- Clear or invalidate active session credentials.
+- Redirect to the login page after logout.
+- Prevent access to protected parent pages after logout until the parent signs in again.
+
+---
+
+## GLOBAL DEVELOPMENT REQUIREMENTS
+
+1. **Role-Based Access Control (RBAC):** Parents must only access parent-authorized menus, pages, records, and actions.
+
+2. **Linked-Child Access Control:** A parent must only view information for children officially linked and authorized under their account.
+
+3. **Multiple Children Support:** One parent account must support multiple linked children, with separate academic and financial records for each child.
+
+4. **Child Switching:** Switching children must automatically update all relevant dashboard information, including academic records, attendance, courses, and fees.
+
+5. **Student Data Privacy:** Parents must not access information belonging to unrelated students or other parents.
+
+6. **Database Integration:** All parent and child information must be retrieved from and saved to the correct database records.
+
+7. **Functional Navigation:** Every sidebar menu, submenu, button, and action must perform its intended function.
+
+8. **Real-Time Updates:** Display updated information when instructors or administrators publish grades, attendance records, announcements, schedules, or payment information.
+
+9. **Search and Filtering:** Implement appropriate search, sorting, and filtering functionality wherever necessary.
+
+10. **Payment Security:** Process payments securely through configured payment gateways and associate every transaction with the correct child and fee record.
+
+11. **Communication:** Support secure messaging between parents, instructors, teachers, and authorized academy administrators.
+
+12. **Notifications:** Provide relevant alerts and reminders about children's academic activities, attendance, communication, and payments.
+
+13. **Security:** Protect parent accounts and child information through secure authentication, backend authorization, input validation, and session management.
+
+14. **Responsive Design:** Ensure the Parent Dashboard works properly on desktop computers, tablets, and mobile devices.
+
+15. **User-Friendly Interface:** Maintain a clean, modern, consistent, and easy-to-use interface.
+
+16. **No Dummy Functionality:** Do not create buttons or menus that appear functional but have no working action. Implement the required frontend and backend functionality.
+
+17. **Error Handling:** Display clear success messages, validation errors, loading indicators, and appropriate error messages.
+
+18. **Audit Trail:** Record important actions such as child-linking requests, profile updates, and payment transactions where required.
+
+## EXPECTED RESULT
+
+Deliver a fully functional, secure, responsive, and user-friendly Parent Dashboard for Ezana Academy.
+
+Parents must be able to manage and monitor all officially linked children from one account, switch between children, track academic performance, view attendance and schedules, monitor assignments and examinations, access grades and certificates, manage fees and payments, and communicate with instructors and academy administrators.
+
+Every sidebar menu and submenu must perform its specified function when clicked.
+
+The system must enforce strict parent-level access permissions and ensure that each parent can only access information belonging to their officially linked children.
+
+# ADDITIONAL MASTER REQUIREMENTS – YOUTUBE-POWERED COURSE CREATION, VIDEO TUTORIAL EXPERIENCE, AND PLATFORM-WIDE ENHANCEMENTS
+
+IMPORTANT PRESERVATION INSTRUCTION:
+- Keep every requirement, section, heading, role definition, database setting, feature, and instruction in the original prompt unchanged.
+- Do not remove, rewrite, shorten, rename, or replace any existing functionality.
+- Treat this addendum as additional requirements that extend the existing Ezana Academy specification.
+- Integrate these requirements into the existing Owner, Admin, and Instructor Dashboard "Course Management" menus and into the relevant Student learning pages.
+- The same YouTube-powered course creation capability must be available to the Owner, Admin, and Instructor, subject to the permissions and approval workflow defined below.
+
+## 1. YOUTUBE API INTEGRATION IN COURSE MANAGEMENT
+
+Add a new course creation method called "Import from YouTube Channel" alongside all existing course creation methods. Do not replace manual course creation, file uploads, or any other existing course creation option.
+
+Make this capability available in:
+- Owner Dashboard → Academy Management → Course Management.
+- Admin Dashboard → Academic Management → Course Management.
+- Instructor Dashboard → Course Management → Create New Course.
+
+### 1.1 YouTube Channel Import Form
+
+Provide a clean, guided form that allows an authorized Owner, Admin, or Instructor to create a course using:
+
+- YouTube Data API v3 API Key.
+- YouTube Channel ID.
+- Course title.
+- Course description and learning objectives.
+- Course thumbnail/cover image, with an option to use a suitable channel/video thumbnail or upload a custom course image.
+- Course category (for example: Technology, Business, Art & Design, Science, Mathematics, Language, Personal Development, and other configurable categories).
+- Course level (Beginner, Intermediate, Advanced, or other configurable levels).
+- Course language.
+- Instructor assignment, where applicable.
+- Course visibility and publication status.
+- Course access/pricing configuration, while preserving the existing Ezana Pro pricing and free-access rules.
+- Optional tags, prerequisites, estimated duration, and target audience.
+
+The user must be able to validate the API key and Channel ID before importing. Display clear validation results, including invalid credentials, invalid or inaccessible channel IDs, API quota errors, network failures, and channels with no eligible public videos.
+
+Allow the user to preview the channel's eligible videos before creating the course. The user must be able to select all eligible videos or select individual videos to include. Also provide an option to synchronize the course with the channel later.
+
+### 1.2 Secure API Key Management
+
+Implement YouTube integration securely and in accordance with Google's API requirements:
+
+- Never expose the YouTube API key in frontend source code, browser network responses, public configuration, or client-side environment variables.
+- Store API credentials securely on the backend, preferably encrypted at rest, and retrieve them only in authorized server-side services.
+- Use environment variables or a secure integration-settings service for platform-level credentials.
+- If users are allowed to provide their own API keys, store each key securely and associate it with the authorized account or integration record.
+- Mask API keys in the interface after saving. Provide controlled update, validation, and removal actions.
+- Never write API keys, tokens, or other secrets into application logs, audit-log details, error responses, or analytics.
+- Enforce RBAC before allowing users to add, view, validate, update, or remove integration credentials.
+- Provide a clear indication of whether the integration is connected, disconnected, invalid, or temporarily unavailable.
+- Apply request throttling, caching, quota-aware synchronization, and safe retry logic.
+- Do not bypass YouTube API restrictions, copyright restrictions, privacy settings, or access controls.
+
+### 1.3 Importing and Synchronizing Channel Videos
+
+Use the official YouTube Data API v3 from the backend to retrieve eligible public video information associated with the supplied Channel ID. Use the channel's uploads playlist and the appropriate API resources to retrieve video IDs and metadata.
+
+For each imported video, retrieve and store the relevant available metadata, such as:
+- YouTube video ID.
+- Video title.
+- Video description.
+- Thumbnail URLs and available thumbnail sizes.
+- Published date and time.
+- Video duration, when available.
+- Video availability and privacy status, to the extent exposed by the API.
+- Position/order in the imported course.
+- Course section, topic, or lesson assignment.
+- Instructor-added notes, learning objectives, and supplemental resources.
+
+Do not assume that every video returned by a channel is playable or public. Validate video availability where possible and handle deleted, private, unlisted, restricted, age-restricted, region-restricted, or otherwise unavailable videos appropriately. Do not expose inaccessible videos as playable lessons.
+
+Support:
+- Initial channel import.
+- Manual refresh/synchronization.
+- Optional scheduled synchronization controlled by authorized platform settings.
+- Incremental synchronization to avoid unnecessary API requests.
+- Pagination for channels with many videos.
+- Duplicate detection using YouTube video IDs.
+- Reordering videos within course sections.
+- Excluding or removing imported videos from a course without deleting the original YouTube video.
+- Detecting videos that are no longer available and marking them unavailable rather than silently breaking the course.
+- Preserving instructor-added lesson notes and course organization during synchronization.
+- Showing the last synchronization date, synchronization status, and any errors.
+- Respecting YouTube API quota limits and avoiding unnecessary repeated requests.
+
+Do not download, copy, rehost, or store YouTube video files. Stream videos through the official YouTube embedded player. Store only the metadata and references required for the course experience, subject to YouTube API terms and applicable policies.
+
+## 2. COURSE AND VIDEO DISPLAY EXPERIENCE
+
+The imported course must look and behave like a native Ezana Academy course. YouTube must be the video source, not the visual identity of the course.
+
+### 2.1 Do Not Display the YouTube Channel Name
+
+- Do not display the YouTube channel name as a course title, course subtitle, video-card label, course heading, or instructor name.
+- Do not show a separate "YouTube Channel" or channel-name label in the student-facing course interface.
+- Display the Ezana Academy course title, course thumbnail, course description, course category, course level, lesson titles, and relevant learning information instead.
+- Use the assigned Ezana Academy instructor's name where an instructor identity is required; never substitute the YouTube channel name for the instructor.
+- Do not invent or misrepresent an instructor, publisher, or course creator.
+- The course title must be independently editable and must not automatically become the YouTube channel name.
+- Keep the Channel ID and integration details in authorized management screens only.
+
+Important technical limitation: YouTube's official embedded player may display YouTube branding or video/channel information in certain player states or overlays. Do not promise to remove or conceal elements that YouTube does not permit developers to control. The Ezana Academy application UI must not separately display the channel name, and the integration must use only supported YouTube player parameters and APIs.
+
+### 2.2 Course Listing and Course Details
+
+Render courses in a polished, responsive course catalog with:
+- Course thumbnail/cover image.
+- Course title.
+- Short course description.
+- Category and level badges or labels.
+- Number of lessons/videos.
+- Estimated course duration, when available.
+- Instructor name, when assigned.
+- Course progress for the logged-in student.
+- Free/Pro access status.
+- Clear "View Course", "Continue Learning", or "Upgrade to Ezana Pro" actions as applicable.
+
+The course detail page should include:
+- Course cover image and title.
+- Overview and learning objectives.
+- Category, level, language, prerequisites, and estimated duration.
+- Course curriculum grouped into sections, modules, topics, or lessons.
+- Lesson count and completion progress.
+- Instructor information from Ezana Academy records.
+- Related courses.
+- Course announcements and supplemental learning resources, where available.
+- Enrollment and access status.
+
+### 2.3 Video Lesson Cards
+
+Each video lesson card should display:
+- Video thumbnail.
+- Lesson/video title.
+- Duration, when available.
+- Section or topic name.
+- Published date, where relevant.
+- Free or Pro lock status.
+- Completion status and progress.
+- A play or continue action when the student has access.
+
+Do not display the YouTube channel name on video cards. Use the course and lesson information maintained by Ezana Academy.
+
+### 2.4 Video Player
+
+Build a responsive, accessible video-learning page using the official YouTube IFrame Player API or supported YouTube embed implementation.
+
+Provide all player controls supported by YouTube, including:
+- Play and pause.
+- Volume and mute.
+- Playback progress and seeking.
+- Full-screen mode.
+- Playback speed options where supported by the embedded player.
+- Captions/subtitles when available.
+- Quality selection where supported by YouTube.
+- Keyboard-accessible controls.
+- Responsive player sizing for desktop, tablet, and mobile.
+- Clear loading, buffering, unavailable-video, and playback-error states.
+
+Use only supported YouTube embed/player parameters. Do not attempt to download videos, remove mandatory YouTube branding, bypass advertisements, bypass age or region restrictions, or disable controls that YouTube requires.
+
+Add Ezana Academy learning controls and features around the player:
+- Previous lesson and next lesson navigation.
+- Course curriculum sidebar or collapsible lesson list.
+- Mark lesson as complete / completed status.
+- Resume from the student's last recorded lesson position when technically and legally supported.
+- Save learning progress to the backend.
+- Record lesson start, completion, and last-accessed timestamps.
+- Automatically update course progress using reliable completion rules.
+- Allow students to add personal notes to a lesson.
+- Allow bookmarking/favoriting lessons.
+- Provide downloadable instructor-authorized notes and attachments.
+- Display learning objectives and key takeaways beside or below the video.
+- Provide a lesson description and instructor-added supplementary resources.
+- Provide a "Report a problem" action for broken, unavailable, incorrect, or inappropriate lesson content.
+- Support accessible labels, keyboard navigation, and appropriate contrast.
+
+Do not falsely mark a video as completed merely because it was opened. Use a configurable and transparent completion rule, such as an authorized completion action or a supported playback-progress threshold. Clearly distinguish watched, in progress, and completed states.
+
+## 3. COURSE FILTERING, SEARCH, SORTING, AND DISCOVERY
+
+Add functional filters and sorting to the public Courses page, Student Dashboard course discovery pages, and relevant course-management listings.
+
+Provide the following filters where appropriate:
+- Category: Technology, Business, Art & Design, Science, Mathematics, Language, Personal Development, and dynamically managed categories.
+- Level: Beginner, Intermediate, Advanced, and dynamically managed levels.
+- Course status: Available, Enrolled, In Progress, Completed, and Locked, according to the current user's permissions.
+- Access type: Free and Ezana Pro.
+- Instructor.
+- Language.
+- Duration.
+- Publication date or recently added.
+- Course rating, where ratings are enabled and based on genuine student feedback.
+
+Provide sorting options:
+- Newest videos first.
+- Oldest videos first.
+- Recently added courses first.
+- Course title A–Z and Z–A.
+- Shortest and longest duration, when duration data is available.
+- Most popular, only when based on real platform activity.
+- Highest rated, only when genuine ratings exist.
+
+For video lessons, include "Newest videos first" and "Oldest videos first" sorting based on the available published date. Make sort order clear and consistent. Filters and sorting must work together, update the displayed results correctly, and persist in the URL or page state where appropriate.
+
+Add:
+- Search by course title, lesson title, topic, description, and tags.
+- Debounced search where appropriate.
+- Clear-all-filters action.
+- Result counts.
+- Pagination or efficient load-more/infinite-scroll behavior.
+- Useful empty states when no courses or videos match.
+- Mobile-friendly filter drawer or collapsible filter panel.
+
+Categories and levels must be managed from the existing Owner/Admin management areas, with Instructor access limited by assigned permissions. Do not hardcode categories or levels in a way that prevents authorized administrators from managing them.
+
+## 4. FREE ACCESS AND EZANA PRO COURSE RULES
+
+Preserve the original pricing and access requirements exactly:
+- A logged-in user can watch up to the first five tutorial videos in each course for free.
+- The remaining videos in that course are locked for users who do not have the required Pro access.
+- The Ezana Pro upgrade price remains ETB 218 for each course, as specified in the original prompt.
+- Do not change ETB 218 to another amount, currency, subscription period, or bundle price unless the Owner explicitly changes the platform configuration.
+- Apply the five-free-video rule independently to every course.
+- Apply access rules consistently to manually created courses and YouTube-imported courses.
+- Do not count unavailable or deleted videos as accessible free lessons. Use a consistent course ordering and clearly identify the first five eligible lessons.
+- Enforce access permissions on the backend. Hiding a locked video in the frontend is not sufficient.
+- A user must not be able to access locked lesson content by guessing a URL, changing a video ID, calling an API directly, or manipulating frontend state.
+- After verified payment and successful entitlement activation, unlock the remaining videos for that specific course.
+- Keep the user's purchase and entitlement records so access remains consistent across devices and sessions.
+- Display a concise upgrade notice when a student selects a locked lesson, explaining that the lesson is part of Ezana Pro and that upgrading for ETB 218 unlocks the remaining tutorial videos for that course.
+- Show a clear Ezana Pro pricing card with the course-specific price, benefits, and payment action.
+- Do not unlock course content based only on a client-side success message or an unverified payment reference.
+
+## 5. OWNER, ADMIN, AND INSTRUCTOR COURSE MANAGEMENT WORKFLOWS
+
+### 5.1 Owner
+
+The Owner must be able to:
+- Create courses manually or import them from a YouTube channel.
+- Configure and manage the platform's YouTube integration.
+- Manage API credentials securely.
+- Review imported channel metadata and videos.
+- Edit course titles, descriptions, thumbnails, categories, levels, and curriculum.
+- Assign or change instructors.
+- Publish, unpublish, archive, restore, and delete courses according to safe data-retention rules.
+- Configure course access and pricing while preserving the ETB 218 requirement.
+- Configure the first-five-free-video rule only if the original business rule is intentionally changed by the Owner.
+- View synchronization history, API errors, and integration health.
+- Review course activity, enrollment, progress, and revenue analytics.
+- Override course publication or approval status.
+- View an audit trail of course creation, imports, edits, synchronization, and deletion.
+
+### 5.2 Admin
+
+The Admin must be able to:
+- Create courses manually or import them from a YouTube channel when authorized by the Owner.
+- Use the approved YouTube integration or their own securely stored API credentials if the Owner permits this.
+- Preview, select, organize, and import channel videos.
+- Edit course metadata and curriculum within assigned permissions.
+- Manage categories, levels, tags, and course visibility within assigned permissions.
+- Assign instructors and manage enrollments where authorized.
+- Synchronize imported videos and resolve import errors within assigned permissions.
+- Submit courses for Owner approval if approval is required.
+- View course status and course-related reports.
+- Never override Owner-only integration, pricing, security, or platform settings unless explicitly granted permission.
+
+### 5.3 Instructor
+
+The Instructor must be able to:
+- Create courses manually or import courses from a YouTube channel when authorized.
+- Enter a YouTube API Key and Channel ID in the secure import workflow if permitted by the Owner/Admin.
+- Preview videos and select which videos belong in the course.
+- Organize videos into modules, sections, topics, and lessons.
+- Add lesson descriptions, learning objectives, notes, quizzes, assignments, and supplemental files.
+- Edit course titles, descriptions, thumbnails, categories, levels, and lesson order within assigned permissions.
+- Refresh or synchronize their imported course when authorized.
+- Submit a new or updated course for review and approval where required.
+- View the status of submitted courses and respond to reviewer feedback.
+- Manage only courses they own or are assigned to, and never access another instructor's private course data without permission.
+
+### 5.4 Course Approval and Publication Workflow
+
+Support configurable course workflows:
+- Draft.
+- Importing.
+- Import failed.
+- Pending review.
+- Changes requested.
+- Approved.
+- Published.
+- Unpublished.
+- Archived.
+
+The Owner must be able to configure whether Admins and Instructors can publish directly or must submit courses for approval. Record who created, edited, approved, published, archived, or deleted each course, with timestamps and relevant audit details.
+
+## 6. YOUTUBE INTEGRATION SETTINGS AND BACKEND IMPLEMENTATION
+
+Implement the integration using a modular backend architecture consistent with the existing React, Node.js, Express, MySQL, Prisma ORM, REST API, JSON, and JWT stack.
+
+Create appropriate database models and relations for, at minimum:
+- YouTube integrations / credential records.
+- Course source configuration.
+- Imported video metadata.
+- Course sections/modules.
+- Lessons.
+- Lesson progress.
+- Lesson bookmarks.
+- Lesson notes.
+- Course categories.
+- Course levels.
+- Course tags.
+- Course approval history.
+- Synchronization jobs and synchronization logs.
+- Course-specific student entitlements and purchases, integrated with the existing payment model.
+
+Use appropriate unique constraints and indexes, especially for YouTube video IDs, course IDs, user IDs, category/level references, and entitlement records. Use transactions for operations that must succeed or fail together. Avoid duplicate course lessons during repeated synchronization.
+
+Create protected REST API endpoints for:
+- Validating YouTube credentials and Channel IDs.
+- Previewing channel information and eligible videos.
+- Importing selected videos into a course.
+- Creating a course from a channel.
+- Updating course metadata and lesson organization.
+- Synchronizing a channel/course.
+- Viewing synchronization status and history.
+- Managing categories, levels, and tags.
+- Recording lesson progress, bookmarks, and notes.
+- Checking course and lesson entitlements.
+- Submitting, reviewing, approving, publishing, and archiving courses.
+
+Use server-side validation, authentication, RBAC, ownership checks, rate limiting, safe error handling, and audit logging for every protected operation. Do not trust course IDs, user IDs, roles, prices, payment statuses, video IDs, or access permissions supplied by the browser without validating them on the backend.
+
+Keep the integration modular, with separate routes, controllers, services, validation schemas, and database models. Use a dedicated YouTube service for API communication and a dedicated synchronization service for import/update logic. Avoid placing API calls, credential handling, or complex business rules directly inside React components.
+
+## 7. ADDITIONAL COURSE-LEARNING FEATURES
+
+Where practical and consistent with the existing dashboard specifications, add:
+- Course ratings and reviews from enrolled students, with moderation and anti-abuse protections.
+- Course bookmarks and wishlists.
+- Recently viewed courses and recently watched lessons.
+- Continue-learning shortcuts.
+- Course completion certificates when configured requirements are met.
+- Lesson-level quizzes and knowledge checks.
+- Downloadable resources and instructor-created study notes.
+- Course announcements and discussion areas.
+- Student questions and instructor answers.
+- Related-course recommendations based on real categories, levels, and learning history.
+- Course learning paths and prerequisite relationships.
+- Learning streaks and achievement milestones, where appropriate.
+- Accessibility support, captions/subtitles when available, keyboard navigation, and responsive layouts.
+- Report-content and moderation workflows.
+- Course feedback and learner satisfaction analytics.
+
+All these features must use real database-backed information and actual working functionality. Do not add fake ratings, fabricated popularity metrics, hardcoded course progress, placeholder reviews, or nonfunctional buttons.
+
+## 8. PLATFORM-WIDE QUALITY, SECURITY, AND USER EXPERIENCE ENHANCEMENTS
+
+Apply the following additional requirements across the entire Ezana Academy website and all five dashboards:
+
+### 8.1 User Experience and Interface
+- Maintain a consistent, premium, modern, responsive visual system across public pages and dashboards.
+- Use a clear information hierarchy, readable typography, accessible color contrast, consistent spacing, and intuitive navigation.
+- Provide responsive sidebar behavior, mobile navigation, breadcrumbs where useful, and clear page titles.
+- Add subtle, purposeful transitions and animations without harming performance or accessibility.
+- Provide skeleton loading states, empty states, error states, success feedback, and confirmation dialogs.
+- Ensure all forms have labels, validation, helpful error messages, and keyboard accessibility.
+- Prevent layout overflow and ensure tables, charts, cards, dialogs, and forms work on mobile devices.
+- Respect reduced-motion preferences and avoid excessive animation.
+- Do not sacrifice usability or accessibility for visual effects.
+
+### 8.2 Security and Privacy
+- Enforce RBAC and record-level authorization in every backend route and service.
+- Validate and sanitize all user input on the server.
+- Use secure password hashing, safe JWT/session handling, secure cookies where appropriate, CSRF protections where applicable, and secure CORS configuration.
+- Add rate limiting to authentication, payment, upload, messaging, and sensitive API routes.
+- Protect against SQL injection, XSS, CSRF, IDOR, brute-force attacks, mass assignment, and unauthorized file access.
+- Apply secure upload validation for file type, size, and content; store uploads safely and serve them through authorized access.
+- Never expose database credentials, JWT secrets, API keys, payment secrets, or private environment variables to the frontend.
+- Keep sensitive data out of logs and user-facing error messages.
+- Add appropriate account recovery, password reset, email verification, and session invalidation workflows where supported.
+- Maintain audit logs for sensitive administrative, financial, security, and course-management actions.
+
+### 8.3 Performance and Reliability
+- Optimize database queries and add indexes based on actual query patterns.
+- Use pagination for large datasets and avoid loading all records at once.
+- Use caching where appropriate, with safe invalidation after updates.
+- Lazy-load images and noncritical components.
+- Optimize image sizes and use responsive image variants.
+- Avoid unnecessary API requests and duplicate network calls.
+- Add robust API error handling, timeouts, retries with backoff where appropriate, and transaction handling.
+- Use background jobs for long-running YouTube imports, synchronization, email delivery, and report generation where appropriate.
+- Provide clear job progress and failure status to authorized users.
+- Ensure the application handles API quota exhaustion and temporary third-party service outages gracefully.
+
+### 8.4 Testing and Delivery
+- Test all roles and permissions, including unauthorized access attempts.
+- Test manual course creation and YouTube channel import end to end.
+- Test invalid API keys, invalid Channel IDs, empty channels, pagination, duplicate videos, unavailable videos, quota exhaustion, and synchronization failures.
+- Test free access to the first five eligible videos in each course and locked access to subsequent videos.
+- Test successful and failed payments and verify that entitlements change only after trusted payment confirmation.
+- Test filters, sorting, search, pagination, video playback states, progress tracking, and responsive layouts.
+- Add unit tests for services and business rules, integration tests for APIs/database operations, and end-to-end tests for critical user journeys.
+- Verify that all existing features still work after implementing these additions.
+- Do not claim a feature is complete unless its frontend, backend, database, authorization, validation, and tests are implemented.
+- Provide setup instructions and document all new environment variables without changing or exposing existing secrets.
+- Provide API documentation for the new endpoints and explain how to configure the YouTube Data API v3 integration.
+
+## 9. FINAL IMPLEMENTATION INSTRUCTION
+
+Implement this addendum in addition to every requirement in the original Ezana Academy prompt. Preserve the original requirements and existing working functionality. Do not replace the existing stack, database configuration, role structure, dashboard menus, or ETB 218 course-specific Ezana Pro pricing.
+
+Prioritize a complete end-to-end implementation: database schema and migrations, backend services and protected REST APIs, secure YouTube integration, frontend course-management workflows, student-facing course catalog and video player, course entitlements and payment verification, responsive UI, and automated tests.
+
+Before finishing, demonstrate that the Owner, Admin, and authorized Instructor can each create a course using a YouTube API Key and Channel ID, preview and import videos, organize lessons, and publish or submit the course according to permissions. Then verify that students see the Ezana Academy course title and thumbnail, can use the supported video controls and course filters, can watch the first five eligible videos for free, and are correctly prompted to purchase Ezana Pro for ETB 218 per course to unlock the remaining videos.
+
+Do not leave mock data, placeholder API integrations, fake synchronization, nonfunctional controls, or incomplete TODO implementations. If a requested capability is restricted by YouTube's API or embedded-player policies, explain the limitation accurately and implement the closest compliant alternative without bypassing YouTube restrictions.
